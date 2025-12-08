@@ -123,7 +123,7 @@ public class AnalyseurSyntaxique {
         }
         avancer();
         
-        System.out.println("✓ Déclaration valide : " + nomVar);
+        System.out.println(" Déclaration valide : " + nomVar);
         return true;
     }
     
@@ -141,7 +141,7 @@ public class AnalyseurSyntaxique {
                 return false;
             }
             avancer();
-            System.out.println("✓ Incrémentation valide : " + nomVar);
+            System.out.println(" Incrémentation valide : " + nomVar);
             return true;
         }
         
@@ -153,7 +153,7 @@ public class AnalyseurSyntaxique {
                 return false;
             }
             avancer();
-            System.out.println("✓ Décrémentation valide : " + nomVar);
+            System.out.println(" Décrémentation valide : " + nomVar);
             return true;
         }
         
@@ -176,7 +176,7 @@ public class AnalyseurSyntaxique {
         }
         avancer();
         
-        System.out.println("✓ Affectation valide : " + nomVar);
+        System.out.println(" Affectation valide : " + nomVar);
         return true;
     }
     
@@ -218,7 +218,7 @@ public class AnalyseurSyntaxique {
             return false;
         }
         
-        System.out.println("✓ Boucle while valide");
+        System.out.println(" Boucle while valide");
         return true;
     }
     
@@ -420,7 +420,7 @@ public class AnalyseurSyntaxique {
             erreur += " : " + message + " (fin de fichier atteinte)";
         }
         erreurs.add(erreur);
-        System.out.println("✗ " + erreur);
+        System.out.println(" " + erreur);
     }
     
     // Obtenir les erreurs
