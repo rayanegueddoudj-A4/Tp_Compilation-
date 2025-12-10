@@ -14,7 +14,7 @@ public class MiniCompilateurC {
         System.out.println("  \n     ");
         System.out.println();
         
-        System.out.println("Entrez votre code C (terminez par une ligne vide) :");
+        System.out.println("Entrez votre code C  :");
         System.out.println("Exemple : int i = 0;");
         System.out.println("          while (i < 10) {");
         System.out.println("              i++;");
