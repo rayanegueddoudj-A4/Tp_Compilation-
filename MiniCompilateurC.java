@@ -4,7 +4,7 @@ package com.mycompany.projetcompi;
 import com.mycompany.projetcompi.Token;
 import java.util.Scanner;
 
-// Programme principal SIMPLIFIE
+
 public class MiniCompilateurC {
     
     public static void main(String[] args) {
